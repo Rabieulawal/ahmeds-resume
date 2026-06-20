@@ -2,6 +2,9 @@
 
 so basically this is a resume that i made for my friend becouse its funny and also i was able to larn basic html and css from this project i think this was a graet oppurtunity to learn and also laugh with my friend
 
+### deployment
+live on github pages on https://rabieulawal.github.io/ahmeds-resume/
+
 ## key feutures of ahmed
 
 * **Roblox Certified:** Holds a flawless **4.7-star brainrot rating**.
