@@ -2,6 +2,10 @@
 
 so basically this is a resume that i made for my friend becouse its funny and also i was able to larn basic html and css from this project i think this was a graet oppurtunity to learn and also laugh with my friend
 
+
+<img width="942" height="436" alt="image" src="https://github.com/user-attachments/assets/b309d514-94fb-485d-be9e-6a36b8172e7a" />
+
+
 ### deployment
 live on github pages on https://rabieulawal.github.io/ahmeds-resume/
 
