@@ -7,7 +7,7 @@
     <style>
         /* All your styles live together perfectly up here */
         body {
-            background-image: url('/ss_gandb.png');
+            background-image: url('images/ss_gandb.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -65,7 +65,7 @@
 <body>
 
     <div class="header-container">
-        <img class="ahmed-img" src="ahmed avatar.webp" alt="Ahmed Avatar">
+        <img class="ahmed-img" src="images/ahmed avatar.webp" alt="Ahmed Avatar">
         <h1 class="title">Ahmeds resume</h1>
     </div>
 
@@ -96,9 +96,74 @@
     <p><strong>officer in the military</strong> Maintained a 100% scream rate in team chat while waving a sabre at nothing.</p>
 
     <h2 id="img">image gallery</h2>
-    <p>coming soon</p>
-    <p>also to see the programmers page</p>
-    <a href="/programmer.html" style="color: #DAC0A3;">click here</a>
+    <footer class="footer-gallery-wrapper">
+        <div class="gallery-container">
+          
+          
+          <div class="image-grid">
+            <div class="grid-item"><img src="images/img_1.webp" alt="Gallery image 1" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_2.webp" alt="Gallery image 2" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_3.webp" alt="Gallery image 3" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_4.webp" alt="Gallery image 4" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_5.webp" alt="Gallery image 5" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_6.webp" alt="Gallery image 6" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_7.webp" alt="Gallery image 7" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_8.webp" alt="Gallery image 8" loading="lazy"></div>
+            <div class="grid-item"><img src="images/img_9.webp" alt="Gallery image 9" loading="lazy"></div>
+          </div>
+        </div>
+      </footer>
+      
+      <style>
+        .footer-gallery-wrapper {
+          background:transparent;
+          padding: 40px 20px;
+          font-family: sans-serif;
+          border-top: 1px solid #eee;
+        }
+      
+      
+        .gallery-container {
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+      
+        .gallery-title {
+          text-align: center;
+          margin-bottom: 25px;
+          color: #333;
+          font-size: 1.5rem;
+        }
+      
+        
+        .image-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 15px; 
+        }
+      
+        .grid-item {
+          position: relative;
+          overflow: hidden;
+          border-radius: 8px; 
+          aspect-ratio: 1 / 1; 
+          background-color: gray; 
+        }
+      
+        .grid-item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; 
+          display: block;
+          transition: transform 0.3s ease; 
+        }
+      
+        
+        .grid-item:hover img {
+          transform: scale(1.05);
+        }
+      </style>
+    
 
 </body>
 </html>

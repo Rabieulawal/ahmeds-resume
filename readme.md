@@ -24,3 +24,13 @@ so basically this is a resume that i made for my friend becouse its funny and al
 └── ss_gandb.png        # Background image for the website
 
 
+## how to run this locally 
+
+1. open your cmd and cd to the folder you want to clone this repo 
+2. clone this repo (install git if you dont have already)
+2. click on the index.html file and the site will open up in your browser
+
+### useful links 
+
+to install git https://git-scm.com/install/
+the deployment 
