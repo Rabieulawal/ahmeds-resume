@@ -22,6 +22,9 @@ live on github pages on https://rabieulawal.github.io/ahmeds-resume/
 * **HTML5** - Structured with semantic tags (`<header>`, `<div>`, `<i>`, `<strong>`).
 * **CSS3** - Styled locally using an internal stylesheet featuring a responsive flexbox header, background cover properties, and custom color themes (`#102C57` and `#DAC0A3`).
 
+  ### ai usage
+  ai was used to learn concpts and help in debuging some parts of code 
+
 ## file structure
 
 ```text
@@ -40,4 +43,6 @@ live on github pages on https://rabieulawal.github.io/ahmeds-resume/
 ### useful links 
 
 to install git https://git-scm.com/install/
-the deployment 
+the deployment
+
+
